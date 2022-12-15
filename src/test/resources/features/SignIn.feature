@@ -1,3 +1,4 @@
+@CompleteTest
 Feature: Sign In Feature
 
   #this is comment

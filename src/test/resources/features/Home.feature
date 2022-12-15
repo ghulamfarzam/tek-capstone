@@ -1,3 +1,4 @@
+@CompleteTest
 Feature: Retail Home Page
 
   Background: 
