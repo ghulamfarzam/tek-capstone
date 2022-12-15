@@ -1,5 +1,9 @@
 ui:
    browser: chrome
+<<<<<<< HEAD
    headless: true
+=======
+   headless: false
+>>>>>>> branch 'master' of https://github.com/pantherstek/CapstoneProject.git
    url: https://tek-retail-ui.azurewebsites.net/ 
    

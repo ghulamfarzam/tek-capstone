@@ -24,6 +24,10 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
 public class TestRunner {
 	
+<<<<<<< HEAD
 
+=======
+//Test for commit rest
+>>>>>>> branch 'master' of https://github.com/pantherstek/CapstoneProject.git
 
 }
