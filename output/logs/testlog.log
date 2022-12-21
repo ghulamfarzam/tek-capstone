@@ -470,3 +470,330 @@
 2022-12-14 20:23:53,969 - logger_file -INFO - user clicked on Add Address option
 2022-12-14 20:23:55,276 - logger_file -INFO - user filled the address form
 2022-12-14 20:23:56,028 - logger_file -INFO - Address Added Successfully is displayed
+2022-12-21 14:23:15,610 - logger_file -INFO - React App is equal to React App
+2022-12-21 14:23:15,774 - logger_file -INFO - user clicked on Sign In option
+2022-12-21 14:23:15,958 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-21 14:23:16,036 - logger_file -INFO - user clicked on login button
+2022-12-21 14:23:16,240 - logger_file -INFO - user logged in into account
+2022-12-21 14:23:16,356 - logger_file -INFO - user clicked on account option
+2022-12-21 14:23:48,295 - logger_file -INFO - React App is equal to React App
+2022-12-21 14:23:48,447 - logger_file -INFO - user clicked on Sign In option
+2022-12-21 14:23:48,655 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-21 14:23:48,731 - logger_file -INFO - user clicked on login button
+2022-12-21 14:23:48,941 - logger_file -INFO - user logged in into account
+2022-12-21 14:23:49,067 - logger_file -INFO - user clicked on account option
+2022-12-21 14:26:48,537 - logger_file -INFO - React App is equal to React App
+2022-12-21 14:26:48,663 - logger_file -INFO - user clicked on Sign In option
+2022-12-21 14:26:48,858 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-21 14:26:48,938 - logger_file -INFO - user clicked on login button
+2022-12-21 14:26:49,151 - logger_file -INFO - user logged in into account
+2022-12-21 14:26:49,292 - logger_file -INFO - user clicked on account option
+2022-12-21 14:26:49,402 - logger_file -INFO - user clicked on edit address option
+2022-12-21 14:26:50,733 - logger_file -INFO - user filled the address form
+2022-12-21 14:26:50,849 - logger_file -INFO - user clicked on Update your Address button
+2022-12-21 14:28:52,831 - logger_file -INFO - React App is equal to React App
+2022-12-21 14:28:52,999 - logger_file -INFO - user clicked on Sign In option
+2022-12-21 14:28:53,203 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-21 14:28:53,280 - logger_file -INFO - user clicked on login button
+2022-12-21 14:28:53,488 - logger_file -INFO - user logged in into account
+2022-12-21 14:28:53,610 - logger_file -INFO - user clicked on account option
+2022-12-21 14:28:53,726 - logger_file -INFO - user clicked on edit address option
+2022-12-21 14:28:55,101 - logger_file -INFO - user filled the address form
+2022-12-21 14:28:55,197 - logger_file -INFO - user clicked on Update your Address button
+2022-12-21 14:31:22,110 - logger_file -INFO - React App is equal to React App
+2022-12-21 14:31:22,218 - logger_file -INFO - user clicked on Sign In option
+2022-12-21 14:31:22,443 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-21 14:31:22,523 - logger_file -INFO - user clicked on login button
+2022-12-21 14:31:22,738 - logger_file -INFO - user logged in into account
+2022-12-21 14:31:22,984 - logger_file -INFO - user clicked on account option
+2022-12-21 14:31:23,114 - logger_file -INFO - user clicked on edit address option
+2022-12-21 14:31:24,663 - logger_file -INFO - user filled the address form
+2022-12-21 14:31:24,755 - logger_file -INFO - user clicked on Update your Address button
+2022-12-21 14:31:25,383 - logger_file -INFO - Address Updated Successfully is displayed
+2022-12-21 14:39:03,873 - logger_file -INFO - React App is equal to React App
+2022-12-21 14:39:04,003 - logger_file -INFO - user clicked on Sign In option
+2022-12-21 14:39:04,224 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-21 14:39:04,294 - logger_file -INFO - user clicked on login button
+2022-12-21 14:39:04,535 - logger_file -INFO - user logged in into account
+2022-12-21 14:39:04,694 - logger_file -INFO - user clicked on account option
+2022-12-21 14:39:04,801 - logger_file -INFO - user clicked on remove option of address section
+2022-12-21 14:39:04,824 - logger_file -INFO - 
+2022-12-21 15:00:35,184 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:00:35,343 - logger_file -INFO - user clicked on All element
+2022-12-21 15:00:35,391 - logger_file -INFO - Electronics is present
+2022-12-21 15:00:35,412 - logger_file -INFO - Computers is present
+2022-12-21 15:00:35,438 - logger_file -INFO - Smart Home is present
+2022-12-21 15:00:35,464 - logger_file -INFO - Sports is present
+2022-12-21 15:00:35,488 - logger_file -INFO - Automative is present
+2022-12-21 15:20:35,627 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:20:35,726 - logger_file -INFO - user clicked on All element
+2022-12-21 15:20:35,773 - logger_file -INFO - Electronics is present
+2022-12-21 15:20:35,794 - logger_file -INFO - Computers is present
+2022-12-21 15:20:35,818 - logger_file -INFO - Smart Home is present
+2022-12-21 15:20:35,839 - logger_file -INFO - Sports is present
+2022-12-21 15:20:35,859 - logger_file -INFO - Automative is present
+2022-12-21 15:20:37,971 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:20:38,078 - logger_file -INFO - user clicked on All element
+2022-12-21 15:20:40,052 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:20:40,143 - logger_file -INFO - user clicked on All element
+2022-12-21 15:20:42,559 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:20:42,685 - logger_file -INFO - user clicked on All element
+2022-12-21 15:20:45,198 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:20:45,321 - logger_file -INFO - user clicked on All element
+2022-12-21 15:20:47,808 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:20:47,978 - logger_file -INFO - user clicked on All element
+2022-12-21 15:21:44,040 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:21:44,145 - logger_file -INFO - user clicked on All element
+2022-12-21 15:21:44,183 - logger_file -INFO - Electronics is present
+2022-12-21 15:21:44,205 - logger_file -INFO - Computers is present
+2022-12-21 15:21:44,227 - logger_file -INFO - Smart Home is present
+2022-12-21 15:21:44,252 - logger_file -INFO - Sports is present
+2022-12-21 15:21:44,279 - logger_file -INFO - Automative is present
+2022-12-21 15:21:46,286 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:21:46,413 - logger_file -INFO - user clicked on All element
+2022-12-21 15:21:48,476 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:21:48,588 - logger_file -INFO - user clicked on All element
+2022-12-21 15:21:50,771 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:21:50,892 - logger_file -INFO - user clicked on All element
+2022-12-21 15:21:53,071 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:21:53,193 - logger_file -INFO - user clicked on All element
+2022-12-21 15:21:55,053 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:21:55,287 - logger_file -INFO - user clicked on All element
+2022-12-21 15:23:10,814 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:23:10,930 - logger_file -INFO - user clicked on All element
+2022-12-21 15:23:10,974 - logger_file -INFO - Electronics is present
+2022-12-21 15:23:11,007 - logger_file -INFO - Computers is present
+2022-12-21 15:23:11,028 - logger_file -INFO - Smart Home is present
+2022-12-21 15:23:11,051 - logger_file -INFO - Sports is present
+2022-12-21 15:23:11,073 - logger_file -INFO - Automative is present
+2022-12-21 15:23:13,519 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:23:13,590 - logger_file -INFO - user clicked on All element
+2022-12-21 15:23:15,663 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:23:15,750 - logger_file -INFO - user clicked on All element
+2022-12-21 15:23:17,860 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:23:17,991 - logger_file -INFO - user clicked on All element
+2022-12-21 15:23:20,112 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:23:20,209 - logger_file -INFO - user clicked on All element
+2022-12-21 15:23:22,327 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:23:22,448 - logger_file -INFO - user clicked on All element
+2022-12-21 15:26:16,271 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:26:16,377 - logger_file -INFO - user clicked on All element
+2022-12-21 15:26:18,359 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:26:18,521 - logger_file -INFO - user clicked on All element
+2022-12-21 15:26:20,520 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:26:20,629 - logger_file -INFO - user clicked on All element
+2022-12-21 15:26:23,246 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:26:23,350 - logger_file -INFO - user clicked on All element
+2022-12-21 15:26:25,499 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:26:25,583 - logger_file -INFO - user clicked on All element
+2022-12-21 15:26:53,066 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:26:53,181 - logger_file -INFO - user clicked on All element
+2022-12-21 15:26:55,282 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:26:55,392 - logger_file -INFO - user clicked on All element
+2022-12-21 15:26:57,653 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:26:57,763 - logger_file -INFO - user clicked on All element
+2022-12-21 15:26:59,907 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:26:59,994 - logger_file -INFO - user clicked on All element
+2022-12-21 15:27:02,124 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:27:02,263 - logger_file -INFO - user clicked on All element
+2022-12-21 15:39:46,611 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:39:46,720 - logger_file -INFO - user clicked on All element
+2022-12-21 15:39:49,571 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:39:49,699 - logger_file -INFO - user clicked on All element
+2022-12-21 15:39:52,264 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:39:52,378 - logger_file -INFO - user clicked on All element
+2022-12-21 15:39:54,980 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:39:55,063 - logger_file -INFO - user clicked on All element
+2022-12-21 15:39:57,561 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:39:57,719 - logger_file -INFO - user clicked on All element
+2022-12-21 15:48:06,164 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:48:06,375 - logger_file -INFO - user clicked on All element
+2022-12-21 15:48:08,483 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:48:08,607 - logger_file -INFO - user clicked on All element
+2022-12-21 15:48:10,815 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:48:10,951 - logger_file -INFO - user clicked on All element
+2022-12-21 15:48:13,544 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:48:13,703 - logger_file -INFO - user clicked on All element
+2022-12-21 15:48:16,244 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:48:16,366 - logger_file -INFO - user clicked on All element
+2022-12-21 15:49:50,857 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:49:50,996 - logger_file -INFO - user clicked on All element
+2022-12-21 15:49:53,321 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:49:53,402 - logger_file -INFO - user clicked on All element
+2022-12-21 15:49:55,521 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:49:55,636 - logger_file -INFO - user clicked on All element
+2022-12-21 15:49:57,877 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:49:57,991 - logger_file -INFO - user clicked on All element
+2022-12-21 15:50:00,195 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:50:00,309 - logger_file -INFO - user clicked on All element
+2022-12-21 15:51:29,146 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:51:29,245 - logger_file -INFO - user clicked on All element
+2022-12-21 15:51:31,243 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:51:31,451 - logger_file -INFO - user clicked on All element
+2022-12-21 15:51:33,603 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:51:33,690 - logger_file -INFO - user clicked on All element
+2022-12-21 15:51:36,130 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:51:36,225 - logger_file -INFO - user clicked on All element
+2022-12-21 15:51:38,362 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:51:38,540 - logger_file -INFO - user clicked on All element
+2022-12-21 15:52:59,916 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:53:00,055 - logger_file -INFO - user clicked on All element
+2022-12-21 15:53:02,245 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:53:02,337 - logger_file -INFO - user clicked on All element
+2022-12-21 15:53:04,554 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:53:04,647 - logger_file -INFO - user clicked on All element
+2022-12-21 15:53:06,886 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:53:07,010 - logger_file -INFO - user clicked on All element
+2022-12-21 15:53:09,288 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:53:09,399 - logger_file -INFO - user clicked on All element
+2022-12-21 15:56:40,939 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:56:41,194 - logger_file -INFO - user clicked on All element
+2022-12-21 15:56:43,688 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:56:43,827 - logger_file -INFO - user clicked on All element
+2022-12-21 15:56:45,950 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:56:46,057 - logger_file -INFO - user clicked on All element
+2022-12-21 15:56:48,249 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:56:48,482 - logger_file -INFO - user clicked on All element
+2022-12-21 15:56:50,537 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:56:50,794 - logger_file -INFO - user clicked on All element
+2022-12-21 15:57:59,782 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:57:59,888 - logger_file -INFO - user clicked on All element
+2022-12-21 15:58:00,009 - logger_file -INFO - TV & Video is present 
+2022-12-21 15:58:00,067 - logger_file -INFO - Video Games is present 
+2022-12-21 15:58:02,175 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:58:02,280 - logger_file -INFO - user clicked on All element
+2022-12-21 15:58:04,426 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:58:04,557 - logger_file -INFO - user clicked on All element
+2022-12-21 15:58:06,807 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:58:06,947 - logger_file -INFO - user clicked on All element
+2022-12-21 15:58:09,043 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:58:09,158 - logger_file -INFO - user clicked on All element
+2022-12-21 15:59:18,460 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:59:18,559 - logger_file -INFO - user clicked on All element
+2022-12-21 15:59:18,710 - logger_file -INFO - TV & Video is present 
+2022-12-21 15:59:18,763 - logger_file -INFO - Video Games is present 
+2022-12-21 15:59:20,596 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:59:20,774 - logger_file -INFO - user clicked on All element
+2022-12-21 15:59:20,986 - logger_file -INFO - Accessories is present 
+2022-12-21 15:59:21,107 - logger_file -INFO - Networking is present 
+2022-12-21 15:59:23,504 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:59:23,656 - logger_file -INFO - user clicked on All element
+2022-12-21 15:59:23,830 - logger_file -INFO - Smart Home Lightning is present 
+2022-12-21 15:59:23,881 - logger_file -INFO - Plugs and Outlets is present 
+2022-12-21 15:59:26,057 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:59:26,217 - logger_file -INFO - user clicked on All element
+2022-12-21 15:59:26,420 - logger_file -INFO - Athletic Clothing is present 
+2022-12-21 15:59:26,476 - logger_file -INFO - Exercise & Fitness is present 
+2022-12-21 15:59:29,105 - logger_file -INFO - React App is equal to React App
+2022-12-21 15:59:29,246 - logger_file -INFO - user clicked on All element
+2022-12-21 15:59:29,668 - logger_file -INFO - Automative Parts & Accessories is present 
+2022-12-21 15:59:29,722 - logger_file -INFO - MotorCycle & Powersports is present 
+2022-12-21 16:00:14,691 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:00:14,799 - logger_file -INFO - user clicked on All element
+2022-12-21 16:00:17,245 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:00:17,350 - logger_file -INFO - user clicked on All element
+2022-12-21 16:00:20,497 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:00:20,584 - logger_file -INFO - user clicked on All element
+2022-12-21 16:00:25,359 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:00:25,510 - logger_file -INFO - user clicked on All element
+2022-12-21 16:00:28,316 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:00:28,455 - logger_file -INFO - user clicked on All element
+2022-12-21 16:23:18,575 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:23:18,701 - logger_file -INFO - user clicked on All element
+2022-12-21 16:23:18,840 - logger_file -INFO - TV & Video is present 
+2022-12-21 16:23:18,900 - logger_file -INFO - Video Games is present 
+2022-12-21 16:23:21,196 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:23:21,291 - logger_file -INFO - user clicked on All element
+2022-12-21 16:23:21,384 - logger_file -INFO - Accessories is present 
+2022-12-21 16:23:21,432 - logger_file -INFO - Networking is present 
+2022-12-21 16:23:23,495 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:23:23,589 - logger_file -INFO - user clicked on All element
+2022-12-21 16:23:23,686 - logger_file -INFO - Smart Home Lightning is present 
+2022-12-21 16:23:23,752 - logger_file -INFO - Plugs and Outlets is present 
+2022-12-21 16:23:25,844 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:23:25,927 - logger_file -INFO - user clicked on All element
+2022-12-21 16:23:26,025 - logger_file -INFO - Athletic Clothing is present 
+2022-12-21 16:23:26,073 - logger_file -INFO - Exercise & Fitness is present 
+2022-12-21 16:23:28,117 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:23:28,208 - logger_file -INFO - user clicked on All element
+2022-12-21 16:24:30,999 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:24:31,106 - logger_file -INFO - user clicked on All element
+2022-12-21 16:24:31,232 - logger_file -INFO - TV & Video is present 
+2022-12-21 16:24:31,279 - logger_file -INFO - Video Games is present 
+2022-12-21 16:24:33,489 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:24:33,581 - logger_file -INFO - user clicked on All element
+2022-12-21 16:24:33,698 - logger_file -INFO - Accessories is present 
+2022-12-21 16:24:33,744 - logger_file -INFO - Networking is present 
+2022-12-21 16:24:35,967 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:24:36,065 - logger_file -INFO - user clicked on All element
+2022-12-21 16:24:36,162 - logger_file -INFO - Smart Home Lightning is present 
+2022-12-21 16:24:36,206 - logger_file -INFO - Plugs and Outlets is present 
+2022-12-21 16:24:38,379 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:24:38,478 - logger_file -INFO - user clicked on All element
+2022-12-21 16:24:38,577 - logger_file -INFO - Athletic Clothing is present 
+2022-12-21 16:24:38,623 - logger_file -INFO - Exercise & Fitness is present 
+2022-12-21 16:24:40,692 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:24:40,868 - logger_file -INFO - user clicked on All element
+2022-12-21 16:24:40,970 - logger_file -INFO - Automative Parts & Accessories is present 
+2022-12-21 16:24:41,021 - logger_file -INFO - MotorCycle & Powersports is present 
+2022-12-21 16:27:18,059 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:27:18,201 - logger_file -INFO - user clicked on All element
+2022-12-21 16:27:18,311 - logger_file -INFO - TV & Video is present 
+2022-12-21 16:27:18,367 - logger_file -INFO - Video Games is present 
+2022-12-21 16:27:20,744 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:27:20,920 - logger_file -INFO - user clicked on All element
+2022-12-21 16:27:21,028 - logger_file -INFO - Accessories is present 
+2022-12-21 16:27:21,082 - logger_file -INFO - Networking is present 
+2022-12-21 16:27:23,116 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:27:23,290 - logger_file -INFO - user clicked on All element
+2022-12-21 16:27:23,401 - logger_file -INFO - Smart Home Lightning is present 
+2022-12-21 16:27:23,448 - logger_file -INFO - Plugs and Outlets is present 
+2022-12-21 16:27:25,617 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:27:25,728 - logger_file -INFO - user clicked on All element
+2022-12-21 16:27:25,829 - logger_file -INFO - Athletic Clothing is present 
+2022-12-21 16:27:25,877 - logger_file -INFO - Exercise & Fitness is present 
+2022-12-21 16:27:28,018 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:27:28,282 - logger_file -INFO - user clicked on All element
+2022-12-21 16:27:28,395 - logger_file -INFO - Automative Parts & Accessories is present 
+2022-12-21 16:27:28,442 - logger_file -INFO - MotorCycle & Powersports is present 
+2022-12-21 16:30:27,397 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:30:27,501 - logger_file -INFO - user clicked on All element
+2022-12-21 16:30:29,744 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:30:29,854 - logger_file -INFO - user clicked on All element
+2022-12-21 16:30:32,232 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:30:32,337 - logger_file -INFO - user clicked on All element
+2022-12-21 16:30:34,562 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:30:34,806 - logger_file -INFO - user clicked on All element
+2022-12-21 16:30:36,889 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:30:37,092 - logger_file -INFO - user clicked on All element
+2022-12-21 16:44:21,572 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:44:21,694 - logger_file -INFO - user clicked on All element
+2022-12-21 16:44:24,254 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:44:24,384 - logger_file -INFO - user clicked on All element
+2022-12-21 16:44:26,722 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:44:26,811 - logger_file -INFO - user clicked on All element
+2022-12-21 16:44:29,032 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:44:29,124 - logger_file -INFO - user clicked on All element
+2022-12-21 16:44:31,466 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:44:31,579 - logger_file -INFO - user clicked on All element
+2022-12-21 16:46:02,576 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:46:02,692 - logger_file -INFO - user clicked on All element
+2022-12-21 16:46:02,774 - logger_file -INFO - This is inside the TV and Video sub department
+2022-12-21 16:46:04,953 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:46:05,079 - logger_file -INFO - user clicked on All element
+2022-12-21 16:46:07,392 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:46:07,487 - logger_file -INFO - user clicked on All element
+2022-12-21 16:46:10,070 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:46:10,183 - logger_file -INFO - user clicked on All element
+2022-12-21 16:46:12,516 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:46:12,613 - logger_file -INFO - user clicked on All element
+2022-12-21 16:50:09,055 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:50:09,155 - logger_file -INFO - user clicked on All element
+2022-12-21 16:50:11,461 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:50:11,662 - logger_file -INFO - user clicked on All element
+2022-12-21 16:50:13,967 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:50:14,104 - logger_file -INFO - user clicked on All element
+2022-12-21 16:50:17,896 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:50:17,991 - logger_file -INFO - user clicked on All element
+2022-12-21 16:50:20,311 - logger_file -INFO - React App is equal to React App
+2022-12-21 16:50:20,579 - logger_file -INFO - user clicked on All element
