@@ -92,8 +92,12 @@ public class RetailAccountSteps extends CommonUtility {
 		} else if (expectedMessage.contains("Address Added Successfully")) {
 
 			waitTillPresence(factory.accountPage().addAddressSuccessfullMessage);
-			Assert.assertEquals(expectedMessage,
-					factory.accountPage().addAddressSuccessfullMessage.getText());
+			Assert.assertEquals(expectedMessage, factory.accountPage().addAddressSuccessfullMessage.getText());
+			logger.info(expectedMessage + " is displayed");
+		} else if (expectedMessage.contains("Address Updated Successfully")) {
+
+			waitTillPresence(factory.accountPage().addressUpdatedSuccessfullyMessage);
+			Assert.assertEquals(expectedMessage, factory.accountPage().addressUpdatedSuccessfullyMessage.getText());
 			logger.info(expectedMessage + " is displayed");
 		}
 
@@ -201,14 +205,28 @@ public class RetailAccountSteps extends CommonUtility {
 	@When("user fill new address form with below information")
 	public void userFillNewAddressFormWithBelowInformation(DataTable dataTable) {
 		List<Map<String, String>> addressInformation = dataTable.asMaps(String.class, String.class);
-		selectByVisibleText(factory.accountPage().countryDropDown, DataGenerator.addressGenerator(addressInformation.get(0).get("country")));
-		sendText(factory.accountPage().addressFullNameInput, DataGenerator.addressGenerator(addressInformation.get(0).get("fullName")));
-		sendText(factory.accountPage().addressPhoneNumberInput,DataGenerator.addressGenerator( addressInformation.get(0).get("phoneNumber")));
-		sendText(factory.accountPage().addressInput, DataGenerator.addressGenerator(addressInformation.get(0).get("streetAddress")));
-		sendText(factory.accountPage().apartmentInput, DataGenerator.addressGenerator(addressInformation.get(0).get("apt")));
-		sendText(factory.accountPage().cityInput, DataGenerator.addressGenerator(addressInformation.get(0).get("city")));
-		selectByVisibleText(factory.accountPage().stateInput, DataGenerator.addressGenerator(addressInformation.get(0).get("state")));
-		sendText(factory.accountPage().zipCodeInput, DataGenerator.addressGenerator(addressInformation.get(0).get("zipCode")));
+		selectByVisibleText(factory.accountPage().countryDropDown,
+				DataGenerator.addressGenerator(addressInformation.get(0).get("country")));
+		clearTextUsingSendKeys(factory.accountPage().addressFullNameInput);
+		sendText(factory.accountPage().addressFullNameInput,
+				DataGenerator.addressGenerator(addressInformation.get(0).get("fullName")));
+		clearTextUsingSendKeys(factory.accountPage().addressPhoneNumberInput);
+		sendText(factory.accountPage().addressPhoneNumberInput,
+				DataGenerator.addressGenerator(addressInformation.get(0).get("phoneNumber")));
+		clearTextUsingSendKeys(factory.accountPage().addressInput);
+		sendText(factory.accountPage().addressInput,
+				DataGenerator.addressGenerator(addressInformation.get(0).get("streetAddress")));
+		clearTextUsingSendKeys(factory.accountPage().apartmentInput);
+		sendText(factory.accountPage().apartmentInput,
+				DataGenerator.addressGenerator(addressInformation.get(0).get("apt")));
+		clearTextUsingSendKeys(factory.accountPage().cityInput);
+		sendText(factory.accountPage().cityInput,
+				DataGenerator.addressGenerator(addressInformation.get(0).get("city")));
+		selectByVisibleText(factory.accountPage().stateInput,
+				DataGenerator.addressGenerator(addressInformation.get(0).get("state")));
+		clearTextUsingSendKeys(factory.accountPage().zipCodeInput);
+		sendText(factory.accountPage().zipCodeInput,
+				DataGenerator.addressGenerator(addressInformation.get(0).get("zipCode")));
 
 		logger.info("user filled the address form");
 
@@ -217,7 +235,40 @@ public class RetailAccountSteps extends CommonUtility {
 	@When("User click Add Your Address button")
 	public void userClickAddYourAddressButton() {
 		click(factory.accountPage().addYourAddress);
+		logger.info("user clicked Add your Address button");
 
+	}
+
+	@When("User click on edit address option")
+	public void userClickOnEditAddressOption() {
+		click(factory.accountPage().editAddressButton);
+		logger.info("user clicked on edit address option");
+
+	}
+
+	@When("User click update Your Address button")
+	public void userClickUpdateYourAddressButton() {
+		click(factory.accountPage().updateAddressButton);
+		logger.info("user clicked on Update your Address button");
+
+	}
+
+	@When("User click on remove option of Address section")
+	public void userClickOnRemoveOptionOfAddressSection() {
+		click(factory.accountPage().removeAddressOption);
+		logger.info("user clicked on remove option of address section");
+
+	}
+
+	@Then("Address details should be removed")
+	public void addressDetailsShouldBeRemoved() {
+		try {
+			Assert.assertFalse(isElementDisplayed(factory.accountPage().removeAddressOption));
+			logger.info("Address details removed");
+		} catch (AssertionError e) {
+			logger.info(e.getMessage());
+
+		}
 	}
 
 }

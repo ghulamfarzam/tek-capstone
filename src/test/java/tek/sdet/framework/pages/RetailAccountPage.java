@@ -123,6 +123,19 @@ public class RetailAccountPage extends BaseSetup {
 	@FindBy(xpath= "//div[text()='Address Added Successfully']")
 	public WebElement addAddressSuccessfullMessage;
 	
+	@FindBy(xpath="//button[text()='Edit']")
+	public WebElement editAddressButton;
+	
+	@FindBy(xpath="//button[text()='Update Your Address']")
+	public WebElement updateAddressButton;
+	
+	@FindBy(xpath ="//div[text()='Address Updated Successfully']")
+	public WebElement addressUpdatedSuccessfullyMessage;
+	
+	
+	@FindBy(xpath ="//button[text()='Remove']")
+	public WebElement removeAddressOption;
+	
 	
 }
 
