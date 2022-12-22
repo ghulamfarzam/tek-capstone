@@ -49,7 +49,35 @@ public class RetailHomePage extends BaseSetup {
 	public List<WebElement> sideBar;
 	
 	
+	@FindBy(xpath ="//p[@class='products__name']")
+	public WebElement productNameItem;
 	
+	@FindBy(xpath ="//select[@class='product__select']")
+	public WebElement quantitySelection;
+	
+	@FindBy(xpath="//span[text()='Add to Cart']")
+	public WebElement addToCartButton;
+	
+	@FindBy(id="cartQuantity")
+	public WebElement cartQuantity;
+	
+	@FindBy(id="proceedBtn")
+	public WebElement proceedToCheckOut;
+	
+	@FindBy(id="addAddressBtn")
+	public WebElement addAddressBtnCheckout;
+	
+	@FindBy(id="addPaymentBtn")
+	public WebElement addPaymentBtnCheckout;
+	
+	@FindBy(id="placeOrderBtn")
+	public WebElement placeOrderBtn;
+	
+	@FindBy(xpath = "//p[text()='Order Placed, Thanks']")
+	public WebElement orderPlacedMessage;
+	
+	@FindBy(id="orderLink")
+	public WebElement ordersOption;
 	
 	
 	

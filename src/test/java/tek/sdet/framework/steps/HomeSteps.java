@@ -105,15 +105,15 @@ public class HomeSteps extends CommonUtility {
 	@When("User on {string}")
 	public void userOnElectronics(String department) {
 
-		getDriver().findElement((By.xpath("//span[text()='" + department + "']"))).click();
+		//getDriver().findElement((By.xpath("//span[text()='" + department + "']"))).click();
 
-//	List<WebElement> dept = factory.homePage().sideBar;
-//	for(WebElement element : dept) {
-//		if(element.getText().equals(department)) {
-//			element.click();
-//			break;
-//		}
-//	}
+	List<WebElement> dept = factory.homePage().sideBar;
+	for(WebElement element : dept) {
+		if(element.getText().equals(department)) {
+			element.click();
+			break;
+		}
+	}
 //		
 //		if(department.equals("Electronics")) {
 //			getDriver().findElement((By.xpath("//span[text()='Electronics']"))).click();
@@ -151,4 +151,62 @@ public class HomeSteps extends CommonUtility {
 
 	}
 
+	@When("User click on item")
+	public void userClickOnItem() {
+		
+		waitTillPresence(factory.homePage().productNameItem);
+		click(factory.homePage().productNameItem);
+		logger.info("User clicked on item");
+
+	}
+	@When("User select quantity {string}")
+	public void userSelectQuantity(String qty) {
+		selectByVisibleText(factory.homePage().quantitySelection,qty);
+		logger.info("user selected quantity " + qty );
+
+	}
+	@When("User click add to Cart button")
+	public void userclickAddToCartButton() {
+		click(factory.homePage().addToCartButton);
+		logger.info("user clicked add to cart button");
+
+	}
+	@Then("the cart icon quantity should change to {string}")
+	public void theCartIconQuantityShouldChangeTo(String expectedQuantity) {
+		
+		Assert.assertEquals(expectedQuantity, factory.homePage().cartQuantity.getText());
+		logger.info("the cart icon quantity changed to " + expectedQuantity );
+	}
+	
+	@Then("User click on Cart option")
+	public void userClickOnCartOption() {
+		click(factory.homePage().cart);
+		logger.info("user clicked on cart option");
+
+	}
+	@Then("User click on Proceed to Checkout button")
+	public void userClickOnProceedToCheckoutButton() {
+		click(factory.homePage().proceedToCheckOut);
+		logger.info("user clicked on Proceed to Checkout button");
+
+	}
+	@Then("User click Add a new address link for shipping address")
+	public void userClickAddANewAddressLinkForShippingAddress() {
+		click(factory.homePage().addAddressBtnCheckout);
+		logger.info("user clicked add a new address link for shipping address");
+
+	}
+	@Then("User click Add a credit card or Debit Card for Payment method")
+	public void userClickAddACreditCardOrDebitCardForPaymentMethod() {
+		click(factory.homePage().addPaymentBtnCheckout);
+		logger.info("User clicked Add a credit card or Debit Card for Payment method");
+
+	}
+	@Then("User click on Place Your Order")
+	public void userClickOnPlaceYourOrder() {
+		click(factory.homePage().placeOrderBtn);
+		logger.info("user clicked on place your order");
+
+	}
+	
 }

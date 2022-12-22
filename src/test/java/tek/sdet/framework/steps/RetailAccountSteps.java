@@ -99,6 +99,11 @@ public class RetailAccountSteps extends CommonUtility {
 			waitTillPresence(factory.accountPage().addressUpdatedSuccessfullyMessage);
 			Assert.assertEquals(expectedMessage, factory.accountPage().addressUpdatedSuccessfullyMessage.getText());
 			logger.info(expectedMessage + " is displayed");
+		}else if (expectedMessage.contains("Order Placed, Thanks")) {
+
+			waitTillPresence(factory.homePage().orderPlacedMessage);
+			Assert.assertEquals(expectedMessage, factory.homePage().orderPlacedMessage.getText());
+			logger.info(expectedMessage + " is displayed");
 		}
 
 	}
