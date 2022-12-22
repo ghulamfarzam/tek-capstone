@@ -797,3 +797,280 @@
 2022-12-21 16:50:17,991 - logger_file -INFO - user clicked on All element
 2022-12-21 16:50:20,311 - logger_file -INFO - React App is equal to React App
 2022-12-21 16:50:20,579 - logger_file -INFO - user clicked on All element
+2022-12-22 14:17:20,368 - logger_file -INFO - React App is equal to React App
+2022-12-22 14:17:20,550 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 14:17:20,892 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 14:17:20,980 - logger_file -INFO - user clicked on login button
+2022-12-22 14:17:21,200 - logger_file -INFO - user logged in into account
+2022-12-22 14:17:21,296 - logger_file -INFO - Smart Home was selected from the drop down
+2022-12-22 14:17:21,396 - logger_file -INFO - user entered kasa outdoor smart plug
+2022-12-22 14:17:21,481 - logger_file -INFO - user clicked on search button
+2022-12-22 14:27:41,837 - logger_file -INFO - React App is equal to React App
+2022-12-22 14:27:42,004 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 14:27:42,242 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 14:27:42,329 - logger_file -INFO - user clicked on login button
+2022-12-22 14:27:42,537 - logger_file -INFO - user logged in into account
+2022-12-22 14:27:42,626 - logger_file -INFO - Smart Home was selected from the drop down
+2022-12-22 14:27:42,729 - logger_file -INFO - user entered kasa outdoor smart plug
+2022-12-22 14:27:42,819 - logger_file -INFO - user clicked on search button
+2022-12-22 14:27:43,009 - logger_file -INFO - User clicked on item
+2022-12-22 14:27:43,167 - logger_file -INFO - user selected quantity 2
+2022-12-22 14:27:43,298 - logger_file -INFO - user clicked add to cart button
+2022-12-22 14:28:29,537 - logger_file -INFO - React App is equal to React App
+2022-12-22 14:28:29,667 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 14:28:29,915 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 14:28:30,016 - logger_file -INFO - user clicked on login button
+2022-12-22 14:28:30,227 - logger_file -INFO - user logged in into account
+2022-12-22 14:28:30,316 - logger_file -INFO - Smart Home was selected from the drop down
+2022-12-22 14:28:30,427 - logger_file -INFO - user entered kasa outdoor smart plug
+2022-12-22 14:28:30,520 - logger_file -INFO - user clicked on search button
+2022-12-22 14:28:30,685 - logger_file -INFO - User clicked on item
+2022-12-22 14:28:30,851 - logger_file -INFO - user selected quantity 2
+2022-12-22 14:28:30,979 - logger_file -INFO - user clicked add to cart button
+2022-12-22 14:28:31,067 - logger_file -INFO - the cart icon quantity changed to 2
+2022-12-22 14:40:24,810 - logger_file -INFO - React App is equal to React App
+2022-12-22 14:40:24,962 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 14:40:25,165 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 14:40:25,249 - logger_file -INFO - user clicked on login button
+2022-12-22 14:40:25,469 - logger_file -INFO - user logged in into account
+2022-12-22 14:40:25,548 - logger_file -INFO - Smart Home was selected from the drop down
+2022-12-22 14:40:25,637 - logger_file -INFO - user entered kasa outdoor smart plug
+2022-12-22 14:40:25,718 - logger_file -INFO - user clicked on search button
+2022-12-22 14:40:25,883 - logger_file -INFO - User clicked on item
+2022-12-22 14:40:26,032 - logger_file -INFO - user selected quantity 2
+2022-12-22 14:40:26,139 - logger_file -INFO - user clicked add to cart button
+2022-12-22 14:40:26,237 - logger_file -INFO - the cart icon quantity changed to 2
+2022-12-22 14:51:51,100 - logger_file -INFO - React App is equal to React App
+2022-12-22 14:51:51,232 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 14:51:51,442 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 14:51:51,517 - logger_file -INFO - user clicked on login button
+2022-12-22 14:51:51,732 - logger_file -INFO - user logged in into account
+2022-12-22 14:51:51,816 - logger_file -INFO - Smart Home was selected from the drop down
+2022-12-22 14:51:51,914 - logger_file -INFO - user entered kasa outdoor smart plug
+2022-12-22 14:51:51,985 - logger_file -INFO - user clicked on search button
+2022-12-22 14:51:52,149 - logger_file -INFO - User clicked on item
+2022-12-22 14:51:52,290 - logger_file -INFO - user selected quantity 2
+2022-12-22 14:51:52,408 - logger_file -INFO - user clicked add to cart button
+2022-12-22 14:51:52,494 - logger_file -INFO - the cart icon quantity changed to 2
+2022-12-22 14:51:52,583 - logger_file -INFO - user clicked on cart option
+2022-12-22 14:51:52,683 - logger_file -INFO - user clicked on Proceed to Checkout button
+2022-12-22 14:51:52,790 - logger_file -INFO - user clicked add a new address link for shipping address
+2022-12-22 14:51:54,096 - logger_file -INFO - user filled the address form
+2022-12-22 14:51:54,195 - logger_file -INFO - user clicked Add your Address button
+2022-12-22 14:51:54,325 - logger_file -INFO - User clicked Add a credit card or Debit Card for Payment method
+2022-12-22 14:51:54,806 - logger_file -INFO - user entered required card information
+2022-12-22 14:51:54,890 - logger_file -INFO - user clicked on Add your card button
+2022-12-22 14:51:55,504 - logger_file -INFO - user clicked on place your order
+2022-12-22 14:51:55,681 - logger_file -INFO - Order Placed, Thanks is displayed
+2022-12-22 14:57:30,382 - logger_file -INFO - React App is equal to React App
+2022-12-22 14:57:30,531 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 14:57:30,754 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 14:57:30,837 - logger_file -INFO - user clicked on login button
+2022-12-22 14:57:31,045 - logger_file -INFO - user logged in into account
+2022-12-22 14:57:31,136 - logger_file -INFO - Electronics was selected from the drop down
+2022-12-22 14:57:31,224 - logger_file -INFO - user entered Apex Legends
+2022-12-22 14:57:31,295 - logger_file -INFO - user clicked on search button
+2022-12-22 15:00:10,790 - logger_file -INFO - React App is equal to React App
+2022-12-22 15:00:10,934 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 15:00:11,141 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 15:00:11,219 - logger_file -INFO - user clicked on login button
+2022-12-22 15:00:11,646 - logger_file -INFO - user logged in into account
+2022-12-22 15:00:11,727 - logger_file -INFO - Electronics was selected from the drop down
+2022-12-22 15:00:11,815 - logger_file -INFO - user entered Apex Legends
+2022-12-22 15:00:11,894 - logger_file -INFO - user clicked on search button
+2022-12-22 15:00:12,060 - logger_file -INFO - User clicked on item
+2022-12-22 15:00:12,218 - logger_file -INFO - user selected quantity 5
+2022-12-22 15:00:12,311 - logger_file -INFO - user clicked add to cart button
+2022-12-22 15:00:12,400 - logger_file -INFO - the cart icon quantity changed to 5
+2022-12-22 15:00:12,488 - logger_file -INFO - user clicked on cart option
+2022-12-22 15:00:12,594 - logger_file -INFO - user clicked on Proceed to Checkout button
+2022-12-22 15:00:12,691 - logger_file -INFO - user clicked on place your order
+2022-12-22 15:00:12,929 - logger_file -INFO - Order Placed, Thanks is displayed
+2022-12-22 15:49:27,412 - logger_file -INFO - React App is equal to React App
+2022-12-22 15:49:27,581 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 15:49:27,805 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 15:49:27,882 - logger_file -INFO - user clicked on login button
+2022-12-22 15:49:28,056 - logger_file -INFO - user logged in into account
+2022-12-22 15:49:28,149 - logger_file -INFO - Electronics was selected from the drop down
+2022-12-22 15:49:28,247 - logger_file -INFO - user entered Apex Legends
+2022-12-22 15:49:28,318 - logger_file -INFO - user clicked on search button
+2022-12-22 15:49:28,493 - logger_file -INFO - User clicked on item
+2022-12-22 15:49:28,640 - logger_file -INFO - user selected quantity 5
+2022-12-22 15:49:28,764 - logger_file -INFO - user clicked add to cart button
+2022-12-22 15:49:28,855 - logger_file -INFO - the cart icon quantity changed to 5
+2022-12-22 15:49:28,947 - logger_file -INFO - user clicked on cart option
+2022-12-22 15:49:29,052 - logger_file -INFO - user clicked on Proceed to Checkout button
+2022-12-22 15:49:29,137 - logger_file -INFO - user clicked on place your order
+2022-12-22 15:49:29,324 - logger_file -INFO - Order Placed, Thanks is displayed
+2022-12-22 15:49:31,350 - logger_file -INFO - React App is equal to React App
+2022-12-22 15:49:31,472 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 15:49:31,668 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 15:49:31,741 - logger_file -INFO - user clicked on login button
+2022-12-22 15:49:31,942 - logger_file -INFO - user logged in into account
+2022-12-22 15:49:32,063 - logger_file -INFO - user clicked on Orders Section
+2022-12-22 15:49:32,194 - logger_file -INFO - user clicked on first order in list
+2022-12-22 15:49:32,269 - logger_file -INFO - user clicked on Cancel The Order button
+2022-12-22 15:49:32,344 - logger_file -INFO - user selected the cancelation Reason Bought wrong item
+2022-12-22 15:49:32,425 - logger_file -INFO - User clicked on Cancel Order Button
+2022-12-22 15:49:32,518 - logger_file -INFO - a cancelation messge displayed Your Order Has Been Cancelled
+2022-12-22 16:00:22,910 - logger_file -INFO - React App is equal to React App
+2022-12-22 16:00:23,043 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 16:00:23,254 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 16:00:23,327 - logger_file -INFO - user clicked on login button
+2022-12-22 16:00:23,576 - logger_file -INFO - user logged in into account
+2022-12-22 16:00:23,678 - logger_file -INFO - Electronics was selected from the drop down
+2022-12-22 16:00:23,761 - logger_file -INFO - user entered Apex Legends
+2022-12-22 16:00:23,834 - logger_file -INFO - user clicked on search button
+2022-12-22 16:00:24,010 - logger_file -INFO - User clicked on item
+2022-12-22 16:00:24,166 - logger_file -INFO - user selected quantity 5
+2022-12-22 16:00:24,283 - logger_file -INFO - user clicked add to cart button
+2022-12-22 16:00:24,381 - logger_file -INFO - the cart icon quantity changed to 5
+2022-12-22 16:00:24,473 - logger_file -INFO - user clicked on cart option
+2022-12-22 16:00:24,579 - logger_file -INFO - user clicked on Proceed to Checkout button
+2022-12-22 16:00:24,667 - logger_file -INFO - user clicked on place your order
+2022-12-22 16:00:24,849 - logger_file -INFO - Order Placed, Thanks is displayed
+2022-12-22 16:00:27,272 - logger_file -INFO - React App is equal to React App
+2022-12-22 16:00:27,412 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 16:00:27,601 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 16:00:27,682 - logger_file -INFO - user clicked on login button
+2022-12-22 16:00:27,931 - logger_file -INFO - user logged in into account
+2022-12-22 16:00:28,059 - logger_file -INFO - user clicked on Orders Section
+2022-12-22 16:00:28,190 - logger_file -INFO - user clicked on first order in list
+2022-12-22 16:00:28,269 - logger_file -INFO - user clicked on Return Items Button
+2022-12-22 16:00:28,354 - logger_file -INFO - user selected the cancelation Reason Item damaged
+2022-12-22 16:00:28,420 - logger_file -INFO - User select the drop off serviceFedEx
+2022-12-22 16:00:28,507 - logger_file -INFO - User click on Return Order button
+2022-12-22 16:04:20,201 - logger_file -INFO - React App is equal to React App
+2022-12-22 16:04:20,325 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 16:04:20,542 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 16:04:20,620 - logger_file -INFO - user clicked on login button
+2022-12-22 16:04:20,839 - logger_file -INFO - user logged in into account
+2022-12-22 16:04:20,920 - logger_file -INFO - Electronics was selected from the drop down
+2022-12-22 16:04:21,015 - logger_file -INFO - user entered Apex Legends
+2022-12-22 16:04:21,098 - logger_file -INFO - user clicked on search button
+2022-12-22 16:04:21,274 - logger_file -INFO - User clicked on item
+2022-12-22 16:04:21,412 - logger_file -INFO - user selected quantity 5
+2022-12-22 16:04:21,523 - logger_file -INFO - user clicked add to cart button
+2022-12-22 16:04:21,620 - logger_file -INFO - the cart icon quantity changed to 5
+2022-12-22 16:04:21,708 - logger_file -INFO - user clicked on cart option
+2022-12-22 16:04:21,815 - logger_file -INFO - user clicked on Proceed to Checkout button
+2022-12-22 16:04:21,907 - logger_file -INFO - user clicked on place your order
+2022-12-22 16:04:22,101 - logger_file -INFO - Order Placed, Thanks is displayed
+2022-12-22 16:04:24,543 - logger_file -INFO - React App is equal to React App
+2022-12-22 16:04:24,733 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 16:04:24,992 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 16:04:25,103 - logger_file -INFO - user clicked on login button
+2022-12-22 16:04:25,318 - logger_file -INFO - user logged in into account
+2022-12-22 16:04:25,499 - logger_file -INFO - user clicked on Orders Section
+2022-12-22 16:04:25,651 - logger_file -INFO - user clicked on first order in list
+2022-12-22 16:04:25,750 - logger_file -INFO - user clicked on Return Items Button
+2022-12-22 16:04:25,844 - logger_file -INFO - user selected the cancelation Reason Item damaged
+2022-12-22 16:04:25,935 - logger_file -INFO - User select the drop off serviceFedEx
+2022-12-22 16:04:26,033 - logger_file -INFO - User click on Return Order button
+2022-12-22 16:05:31,665 - logger_file -INFO - React App is equal to React App
+2022-12-22 16:05:31,851 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 16:05:32,057 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 16:05:32,139 - logger_file -INFO - user clicked on login button
+2022-12-22 16:05:32,350 - logger_file -INFO - user logged in into account
+2022-12-22 16:05:32,435 - logger_file -INFO - Electronics was selected from the drop down
+2022-12-22 16:05:32,531 - logger_file -INFO - user entered Apex Legends
+2022-12-22 16:05:32,606 - logger_file -INFO - user clicked on search button
+2022-12-22 16:05:32,776 - logger_file -INFO - User clicked on item
+2022-12-22 16:05:32,917 - logger_file -INFO - user selected quantity 5
+2022-12-22 16:05:33,024 - logger_file -INFO - user clicked add to cart button
+2022-12-22 16:05:33,112 - logger_file -INFO - the cart icon quantity changed to 5
+2022-12-22 16:05:33,196 - logger_file -INFO - user clicked on cart option
+2022-12-22 16:05:33,317 - logger_file -INFO - user clicked on Proceed to Checkout button
+2022-12-22 16:05:33,403 - logger_file -INFO - user clicked on place your order
+2022-12-22 16:05:33,620 - logger_file -INFO - Order Placed, Thanks is displayed
+2022-12-22 16:05:35,974 - logger_file -INFO - React App is equal to React App
+2022-12-22 16:05:36,119 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 16:05:36,322 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 16:05:36,398 - logger_file -INFO - user clicked on login button
+2022-12-22 16:05:36,607 - logger_file -INFO - user logged in into account
+2022-12-22 16:05:36,733 - logger_file -INFO - user clicked on Orders Section
+2022-12-22 16:05:36,851 - logger_file -INFO - user clicked on first order in list
+2022-12-22 16:05:36,934 - logger_file -INFO - user clicked on Return Items Button
+2022-12-22 16:05:37,021 - logger_file -INFO - user selected the cancelation Reason Item damaged
+2022-12-22 16:05:37,095 - logger_file -INFO - User select the drop off serviceFedEx
+2022-12-22 16:05:37,173 - logger_file -INFO - User click on Return Order button
+2022-12-22 16:05:37,273 - logger_file -INFO - a cancelation messge displayed Return was successfull
+2022-12-22 16:16:18,729 - logger_file -INFO - React App is equal to React App
+2022-12-22 16:16:18,913 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 16:16:19,147 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 16:16:19,223 - logger_file -INFO - user clicked on login button
+2022-12-22 16:16:19,463 - logger_file -INFO - user logged in into account
+2022-12-22 16:16:19,539 - logger_file -INFO - Electronics was selected from the drop down
+2022-12-22 16:16:19,624 - logger_file -INFO - user entered Apex Legends
+2022-12-22 16:16:19,704 - logger_file -INFO - user clicked on search button
+2022-12-22 16:16:19,873 - logger_file -INFO - User clicked on item
+2022-12-22 16:16:20,021 - logger_file -INFO - user selected quantity 5
+2022-12-22 16:16:20,152 - logger_file -INFO - user clicked add to cart button
+2022-12-22 16:16:20,246 - logger_file -INFO - the cart icon quantity changed to 5
+2022-12-22 16:16:20,344 - logger_file -INFO - user clicked on cart option
+2022-12-22 16:16:20,440 - logger_file -INFO - user clicked on Proceed to Checkout button
+2022-12-22 16:16:20,540 - logger_file -INFO - user clicked on place your order
+2022-12-22 16:16:20,774 - logger_file -INFO - Order Placed, Thanks is displayed
+2022-12-22 16:16:23,036 - logger_file -INFO - React App is equal to React App
+2022-12-22 16:16:23,219 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 16:16:23,452 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 16:16:23,518 - logger_file -INFO - user clicked on login button
+2022-12-22 16:16:23,732 - logger_file -INFO - user logged in into account
+2022-12-22 16:16:23,851 - logger_file -INFO - user clicked on Orders Section
+2022-12-22 16:16:23,965 - logger_file -INFO - user clicked on first order in list
+2022-12-22 16:16:24,036 - logger_file -INFO - user click on Review Button
+2022-12-22 16:16:24,268 - logger_file -INFO - user wrote review on product
+2022-12-22 16:16:24,353 - logger_file -INFO - user clicked add your review button
+2022-12-22 16:17:26,283 - logger_file -INFO - React App is equal to React App
+2022-12-22 16:17:26,415 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 16:17:26,628 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 16:17:26,699 - logger_file -INFO - user clicked on login button
+2022-12-22 16:17:26,913 - logger_file -INFO - user logged in into account
+2022-12-22 16:17:26,988 - logger_file -INFO - Electronics was selected from the drop down
+2022-12-22 16:17:27,076 - logger_file -INFO - user entered Apex Legends
+2022-12-22 16:17:27,160 - logger_file -INFO - user clicked on search button
+2022-12-22 16:17:27,524 - logger_file -INFO - User clicked on item
+2022-12-22 16:17:27,691 - logger_file -INFO - user selected quantity 5
+2022-12-22 16:17:27,808 - logger_file -INFO - user clicked add to cart button
+2022-12-22 16:17:27,900 - logger_file -INFO - the cart icon quantity changed to 5
+2022-12-22 16:17:28,012 - logger_file -INFO - user clicked on cart option
+2022-12-22 16:17:28,128 - logger_file -INFO - user clicked on Proceed to Checkout button
+2022-12-22 16:17:28,219 - logger_file -INFO - user clicked on place your order
+2022-12-22 16:17:28,416 - logger_file -INFO - Order Placed, Thanks is displayed
+2022-12-22 16:17:30,586 - logger_file -INFO - React App is equal to React App
+2022-12-22 16:17:30,872 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 16:17:31,066 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 16:17:31,152 - logger_file -INFO - user clicked on login button
+2022-12-22 16:17:31,368 - logger_file -INFO - user logged in into account
+2022-12-22 16:17:31,491 - logger_file -INFO - user clicked on Orders Section
+2022-12-22 16:17:31,604 - logger_file -INFO - user clicked on first order in list
+2022-12-22 16:17:31,695 - logger_file -INFO - user click on Review Button
+2022-12-22 16:17:31,934 - logger_file -INFO - user wrote review on product
+2022-12-22 16:17:32,011 - logger_file -INFO - user clicked add your review button
+2022-12-22 16:18:30,443 - logger_file -INFO - React App is equal to React App
+2022-12-22 16:18:30,589 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 16:18:30,790 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 16:18:30,874 - logger_file -INFO - user clicked on login button
+2022-12-22 16:18:31,097 - logger_file -INFO - user logged in into account
+2022-12-22 16:18:31,177 - logger_file -INFO - Electronics was selected from the drop down
+2022-12-22 16:18:31,265 - logger_file -INFO - user entered Apex Legends
+2022-12-22 16:18:31,339 - logger_file -INFO - user clicked on search button
+2022-12-22 16:18:31,496 - logger_file -INFO - User clicked on item
+2022-12-22 16:18:31,642 - logger_file -INFO - user selected quantity 5
+2022-12-22 16:18:31,745 - logger_file -INFO - user clicked add to cart button
+2022-12-22 16:18:31,848 - logger_file -INFO - the cart icon quantity changed to 5
+2022-12-22 16:18:31,945 - logger_file -INFO - user clicked on cart option
+2022-12-22 16:18:32,069 - logger_file -INFO - user clicked on Proceed to Checkout button
+2022-12-22 16:18:32,158 - logger_file -INFO - user clicked on place your order
+2022-12-22 16:18:32,350 - logger_file -INFO - Order Placed, Thanks is displayed
+2022-12-22 16:18:34,661 - logger_file -INFO - React App is equal to React App
+2022-12-22 16:18:34,852 - logger_file -INFO - user clicked on Sign In option
+2022-12-22 16:18:35,100 - logger_file -INFO - user entered email test@test.com and password 12345@Tek
+2022-12-22 16:18:35,185 - logger_file -INFO - user clicked on login button
+2022-12-22 16:18:35,417 - logger_file -INFO - user logged in into account
+2022-12-22 16:18:35,558 - logger_file -INFO - user clicked on Orders Section
+2022-12-22 16:18:35,699 - logger_file -INFO - user clicked on first order in list
+2022-12-22 16:18:35,798 - logger_file -INFO - user click on Review Button
+2022-12-22 16:18:36,131 - logger_file -INFO - user wrote review on product
+2022-12-22 16:18:36,210 - logger_file -INFO - user clicked add your review button
+2022-12-22 16:18:36,914 - logger_file -INFO - a review message displayed
