@@ -1,7 +1,5 @@
 package tek.sdet.framework.pages;
 
-import java.util.List;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -9,150 +7,147 @@ import org.openqa.selenium.support.PageFactory;
 import tek.sdet.framework.base.BaseSetup;
 
 public class RetailAccountPage extends BaseSetup {
-	
+
 	public RetailAccountPage() {
 		PageFactory.initElements(getDriver(), this);
 	}
-
+	// update profile ---------------------------------
+	@FindBy(id = "profileImage")
+	public WebElement profileImage;
 	
 	@FindBy(id = "nameInput")
-	public WebElement nameField;
-	
-	@FindBy(id= "personalPhoneInput")
+	public WebElement nameInputField;
+
+	@FindBy(id="personalPhoneInput")
 	public WebElement phoneInputField;
 	
-	@FindBy(id="emailInput")
-	public WebElement emailInputField;
+	@FindBy(id = "personalUpdateBtn")
+	public WebElement personalUpdateButton;
 	
-	@FindBy(xpath ="//button[text()='Update']")
-	public WebElement updateButton;
-	
-	@FindBy(xpath ="//div[text()='Personal Information Updated Successfully']")
-	public WebElement personalInformationUpdateMessage;
-	
-	@FindBy(id ="previousPasswordInput")
-	public WebElement previousPasswordInput;
-	
-	@FindBy(id="newPasswordInput")
-	public WebElement newPasswordInput;
-	
-	@FindBy(id="confirmPasswordInput")
-	public WebElement confirmPasswordInput;
-	
-	@FindBy(id="credentialsSubmitBtn")
-	public WebElement changePasswordButton;
-	
-	@FindBy(xpath="//div[text()='Password Updated Successfully']")
-	public WebElement passwordUpdatedSuccessfullyMessage;
-	
-	@FindBy(xpath ="//p[text()='Add a payment method']")
-	public WebElement addPaymentMethodLink;
-	
-	@FindBy(id="cardNumberInput")
-	public WebElement cardNumberInput;
-	
-	@FindBy(id="nameOnCardInput")
-	public WebElement nameOnCardInput;
-	
-	@FindBy(id="expirationMonthInput")
-	public WebElement expirationMonthInput;
-	
-	@FindBy(id="expirationYearInput")
-	public WebElement expirationYearInput;
-	
-	@FindBy(id="securityCodeInput")
-	public WebElement securityCodeInput;
-	
-	@FindBy(id="paymentSubmitBtn")
-	public WebElement addYourCardButton;
-	
-	@FindBy(xpath="//div[text()='Payment Method added sucessfully']")
-	public WebElement paymentMethodAddedSuccessfullyMessage;
-	
-	@FindBy(xpath ="//div[@class='account__payment-sub']/p")
-	public List<WebElement> cardEndingNumber;
-	
-	@FindBy(xpath ="//button[text()='Edit']")
-	public WebElement cardEditButton;
-	
-	@FindBy(xpath ="//button[text()='Update Your Card']")
-	public WebElement updateYourCardButton;
-	
-	@FindBy(xpath ="//div[text()='Payment Method updated Successfully']")
-	public WebElement paymentMethodUpdatedSuccessfullyMessage;
+	@FindBy(xpath = "//div[text()='Personal Information Updated Successfully']")
+	public WebElement personalInforUpdatesuccessMessage;
 	
 	
-	@FindBy(xpath ="//button[text()='remove']")
-	public WebElement removeCardLink;
+	@FindBy(id = "newAccountBtn")
+	public WebElement newAccountBtnField;
 	
-	@FindBy(xpath= "//div[@class='account__payment-sub']")
-	public WebElement cardPresent;
+	@FindBy(id = "accountLink")
+	public WebElement accountLinkField;
 	
+	//locators for add credit car to account-------------------------------------------- 
 	
-	@FindBy(xpath ="//p[text()='Add Address']")
-	public WebElement addAddressButton;
+	@FindBy(xpath = "//img[@alt='add payment method']")
+	public WebElement addPaymentMethod;
 	
-	@FindBy(id="countryDropdown")
-	public WebElement countryDropDown;
+	@FindBy(id = "cardNumberInput")
+	public WebElement cardNumberInputField;
 	
-	@FindBy(id="fullNameInput")
-	public WebElement addressFullNameInput;
+	@FindBy(id = "nameOnCardInput")
+	public WebElement nameOnCardInputField;
 	
-	@FindBy(id="phoneNumberInput")
-	public WebElement addressPhoneNumberInput;
+	@FindBy(id = "expirationMonthInput")
+	public WebElement expirationMonthInputField;
 	
-	@FindBy(id="streetInput")
-	public WebElement addressInput;
+	@FindBy(id = "expirationYearInput")
+	public WebElement expirationYearInputField;
 	
-	@FindBy(id="apartmentInput")
-	public WebElement apartmentInput;
+	@FindBy(id = "securityCodeInput")
+	public WebElement securityCodeInputField;
 	
-	@FindBy(id="cityInput")
-	public WebElement cityInput;
+	@FindBy(id = "paymentSubmitBtn")
+	public WebElement paymentSubmitBtn;
 	
-	@FindBy(xpath="//select[@name='state']")
-	public WebElement stateInput;
+	@FindBy(xpath = "//div[text()='Payment Method added sucessfully']")
+	public WebElement paymentMethodAddedSuccessMssage;
 	
-	@FindBy(id="zipCodeInput")
-	public WebElement zipCodeInput;
+	//edit Card--------------------------------------------------------------------------------------
+	@FindBy(xpath = "//p[@class='account__payment__sub-text']")
+	public WebElement cardField;
 	
-	@FindBy(id="addressBtn")
-	public WebElement addYourAddress;
+	@FindBy(xpath = "//div[@class='flex gap-2 py-2']//child::button[1]")
+	public WebElement editCardField;
 	
+	@FindBy(id = "paymentSubmitBtn")
+	public WebElement paymentSubmitBtnField;
 	
-	@FindBy(xpath= "//div[text()='Address Added Successfully']")
-	public WebElement addAddressSuccessfullMessage;
-	
-	@FindBy(xpath="//button[text()='Edit']")
-	public WebElement editAddressButton;
-	
-	@FindBy(xpath="//button[text()='Update Your Address']")
-	public WebElement updateAddressButton;
-	
-	@FindBy(xpath ="//div[text()='Address Updated Successfully']")
-	public WebElement addressUpdatedSuccessfullyMessage;
+	@FindBy(xpath = "//div[text()='Payment Method updated Successfully']")
+	public WebElement paymentUpdatedSuccess;
 	
 	
-	@FindBy(xpath ="//button[text()='Remove']")
-	public WebElement removeAddressOption;
+	//Remove Credit/Debit car ---------------------------------------------------
+	
+	@FindBy(xpath = "//p[@class='account__payment__sub-text']")
+	public WebElement removeField;
 	
 	
+	@FindBy(xpath = "//button[text()='remove']")
+	public WebElement removeButton;
+	
+	
+	//Add Address
+	
+	@FindBy(xpath = "//div[@class='account__address-new']")
+	public WebElement AddAddressBttn;
+	
+	@FindBy(id = "countryDropdown")
+	public WebElement countryDropdownField;
+	
+	@FindBy(id = "fullNameInput")
+	public WebElement fullNameInputField;
+	
+	@FindBy(id = "phoneNumberInput")
+	public WebElement phoneNumberInputField;
+	
+	@FindBy(id = "streetInput")
+	public WebElement streetInputField;
+	
+	@FindBy(id = "apartmentInput")
+	public WebElement apartmentInputField;
+	
+	@FindBy(id = "cityInput")
+	public WebElement cityInputField;
+	
+	@FindBy(name = "state")
+	public WebElement stateInputField;
+	
+	@FindBy(id = "zipCodeInput")
+	public WebElement zipCodeInputField;
+	
+	@FindBy(id = "addressBtn")
+	public WebElement addressBtn;
+	
+	@FindBy(xpath = "//div[text()='Address Added Successfully']")
+	public WebElement addressAddedSuccess;
+	
+	
+	//edit Address
+	
+	@FindBy(xpath = "//div[@class='account__address-btn-wrapper']//button[1]")
+	public WebElement editAddressOption;
+	
+	@FindBy(id = "addressBtn")
+	public WebElement updateAddressBttn;
+	
+	@FindBy(xpath = "//div[text()='Address Updated Successfully']")
+	public WebElement addressUpdateSuccessMssg;
+	
+	
+	//remove address 
+	@FindBy(xpath = "//div[@class='account__address-btn-wrapper']//button[2]")
+	public WebElement removeAddressField;
+	
+	
+	public void clearCreditDebitCardInfo() {
+		cardNumberInputField.clear();
+		nameOnCardInputField.clear();
+		clearTextUsingSednKeys(securityCodeInputField);
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	private void clearTextUsingSednKeys(WebElement securityCodeInputField2) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

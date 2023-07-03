@@ -9,7 +9,9 @@ public class BaseUITest extends CommonUtility {
 	
 	
 	@Before
-	public void setupTests() {
+	public void setupTests(Scenario scenario) {
+//		byte[] screenShot = takeScreenShotAsBytes();
+//		scenario.attach(screenShot, "image/png", scenario.getName() + "scenario passed");
 		super.setupBrowser();
 	}
 	

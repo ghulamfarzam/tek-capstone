@@ -82,10 +82,14 @@ public class CommonUtility extends BaseSetup {
 		executor.executeScript("arguments[0].value='" + value + "';", ele);
 	}
 
-	public void clearTextUsingSendKeys(WebElement toClear) {
+	public void clearTextUsingSendKeys(WebElement toClear, String string) {
 		toClear.sendKeys(Keys.CONTROL + "a");
 		toClear.sendKeys(Keys.DELETE);
 	}
+	public void clearTextUsingSendKeys(WebElement toClear) {
+		toClear.sendKeys(Keys.CONTROL + "a");
+		toClear.sendKeys(Keys.DELETE);
+	}	
 
 	public void selectByIndex(WebElement ele, int index) {
 		Select select = new Select(ele);
@@ -226,6 +230,8 @@ public class CommonUtility extends BaseSetup {
 			e.printStackTrace();
 		}
 	}
+	
+	
 	
 
 }

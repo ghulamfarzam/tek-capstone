@@ -1,71 +1,66 @@
-@CompleteTest
-Feature: Retail Account Page
+Feature: Retail Account
 
   Background: 
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'test@test.com' and password '12345@Tek'
+    And User enter email 'Dragonsandlions@gmail.com' and password 'Tekschool@123'
     And User click on login button
-    And User should be logged in into Account
+    Then User should be logged into Account
+    When User click on Account option
 
+  @updateProfile
   Scenario: Verify User can update Profile Information
     When User click on Account option
-    And User update Name 'panthersTestJenkins' and Phone '2025058899'
+    And User update Name 'Jan Ali' and Phone '212-555-8888'
     And User click on Update button
-    Then User profile information should be updated
-
-  Scenario: Verify User can Update password
-    When User click on Account option
-    And User enter below information
-      | previousPassword | newPassword | confirmPassword |
-      | Tek@54321        | Tek@12345   | Tek@12345       |
-    And User click on Change Password button
-    Then a message should be displayed 'Password Updated Successfully'
-
+    Then user profile information should be updated
+  
+  @paymentmethod
   Scenario: Verify User can add a payment method
     When User click on Account option
-    * User click on Add a payment method link
-    * User fill Debit or credit card information
+    And User click on Add a payment method link
+    And User fill Debit or credit card information
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 9876543213214561 | Panthers   |              11 |           2024 |          123 |
-    * User click on Add your card button
+      | 5112304008669333 | Miragha   |              02 |           2028 |       555 |
+    And User click on Add your card button
     Then a message should be displayed 'Payment Method added sucessfully'
 
+@editCard
   Scenario: Verify User can edit Debit or Credit card
     When User click on Account option
-    And User select card with ending '9852'
     And User click on Edit option of card section
     And user edit information with below data
-      | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 7412589633698521 | Panthers   |              12 |           2025 |          456 |
+      | cardNumber | nameOnCard | expirationMonth | expirationYear | securityCode |
+      | 4455338899221100 | Shiragha | 05   | 2030   | 999  |
     And user click on Update Your Card button
-    Then a message should be displayed 'Payment Method updated Successfully'
+   Then a message should be displayed 'Payment Method updated Successfully’
 
+  @removeCard
   Scenario: Verify User can remove Debit or Credit card
     When User click on Account option
-    And User select card with ending '3654'
     And User click on remove option of card section
     Then payment details should be removed
 
+  @addAddress
   Scenario: Verify User can add an Address
     When User click on Account option
     And User click on Add address option
     And user fill new address form with below information
-      | country      | fullName      | phoneNumber | streetAddress | apt      | city      | state      | zipCode      |
-      | countryValue | fullnameValue | PhoneValue  | stAddress     | aptValue | cityValue | stateValue | zipCodeValue |
+      | country       | fullName | phoneNumber | streetAddress  | apt | city     | state    | zipCode |
+      | United States | BibiGul  |  6468587144 | 630 1st Avenue | 20B | New York | New York |   10017 |
     And User click Add Your Address button
     Then a message should be displayed 'Address Added Successfully'
 
+  @editAddress
   Scenario: Verify User can edit an Address added on account
     When User click on Account option
     And User click on edit address option
     And user fill new address form with below information
-      | country      | fullName      | phoneNumber | streetAddress | apt      | city      | state      | zipCode      |
-      | countryValue | fullnameValue | PhoneValue  | stAddress     | aptValue | cityValue | stateValue | zipCodeValue |
-    And User click update Your Address button
-    Then a message should be displayed 'Address Updated Successfully'
+      | country        | fullName | phoneNumber  | streetAddress    | apt | city     | state    | zipCode |
+      | United Kingdom | Joshua   | 212-545-9988 | 4602 70th Street | 9G  | Jersey City | New Jersery |   11377 |
+    And User click update Your Address button 'Address Updated Successfully'
 
-  
+  @removeAddress
   Scenario: Verify User can remove Address from Account
     When User click on Account option
     And User click on remove option of Address section

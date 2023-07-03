@@ -1,212 +1,112 @@
 package tek.sdet.framework.steps;
 
 import java.util.List;
-import java.util.Map;
 
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
 import io.cucumber.datatable.DataTable;
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import tek.sdet.framework.pages.POMFactory;
 import tek.sdet.framework.utilities.CommonUtility;
 
-public class HomeSteps extends CommonUtility {
-	// all your step definitions classes will extends
-	// CommonUtility class
-	// we need to create object of POMFactory class
-	// PomFactory instance should be on top of the class
+public class HomeSteps extends CommonUtility{
 	POMFactory factory = new POMFactory();
 
-	@Given("User is on retail website")
-	public void userIsOnRetailWebsite() {
-		String expectedTitle = "React App";
-		String actualTitle = getTitle();// wrote this one in CommonUtility
-		Assert.assertEquals(expectedTitle, actualTitle);
-		logger.info(actualTitle + " is equal to " + expectedTitle);
-	}
-
-	@Then("User verify retail page logo is present")
-	public void userVerifyRetailPageLogoIsPresent() {
-		Assert.assertTrue(isElementDisplayed(factory.homePage().logo));
-		logger.info("logo is present");
-
-	}
-
-	@When("User change the category to {string}")
-	public void userChangeTheCategoryTo(String value) {
-		selectByVisibleText(factory.homePage().allDepartments, value);
-		logger.info(value + " was selected from the drop down");
-
-	}
-
-	@When("User search for an item {string}")
-	public void userSearchForAnItem(String value) {
-		sendText(factory.homePage().searchInputField, value);
-		logger.info("user entered " + value);
-
-	}
-
-	@When("User click on Search icon")
-	public void userClickOnSearchIcon() {
-		click(factory.homePage().searchButton);
-		logger.info("user clicked on search button");
-	}
-
-	@Then("Item should be present")
-	public void itemShouldBePresent() {
-		Assert.assertTrue(isElementDisplayed(factory.homePage().playStationItem));
-		logger.info("item is present");
-
-	}
-
+	//All Section
 	@When("User click on All section")
-	public void userClickOnAllSection() {
-		click(factory.homePage().allElement);
-		logger.info("user clicked on All element");
+	public void userClickOnAllSection() throws InterruptedException {
+		click(factory.homePage().allField);
+		Thread.sleep(2000);
+	  
 	}
-
-	@Then("User verifies {string} is present")
-	public void user_verifies_is_present(String value) {
-		String expectedValue = value;
-		String actualValue = getElementText(factory.homePage().shopByDepartment);
-		Assert.assertEquals(expectedValue, actualValue);
-		logger.info(expectedValue + " is present");
-	}
-
-	@And("User verifies cart icon is present")
-	public void userVerifiesCartIconIsPresent() {
-		slowDown();
-		HighlightElement(factory.homePage().cart);
-		slowDown();
-		Assert.assertTrue(isElementDisplayed(factory.homePage().cart));
-		logger.info("cart icon is present");
-		scrollPageDownWithJS();
-		slowDown();
-	}
-
 	@Then("below options are present in Shop by Department sidebar")
 	public void belowOptionsArePresentInShopByDepartmentSidebar(DataTable dataTable) {
-
-		List<List<String>> shopByDepartment = dataTable.asLists(String.class);
-
-		for (int i = 0; i < shopByDepartment.get(0).size(); i++) {
-			Assert.assertTrue(isElementDisplayed(
-					getDriver().findElement(By.xpath("//span[text()='" + shopByDepartment.get(0).get(i) + "']"))));
-			logger.info(shopByDepartment.get(0).get(i) + " is present");
-		}
+		List<List<String>> data = dataTable.asLists(String.class);
+		Assert.assertTrue(isElementDisplayed(factory.homePage().allButtn));
+		logger.info("options Electronics, Computers, Smarth Home, Sports and Automative are present");
 
 	}
-
-	@When("User on {string}")
-	public void userOnElectronics(String department) {
-
-		//getDriver().findElement((By.xpath("//span[text()='" + department + "']"))).click();
-
-	List<WebElement> dept = factory.homePage().sideBar;
-	for(WebElement element : dept) {
-		if(element.getText().equals(department)) {
-			element.click();
+	
+	//department sections
+	String department;
+	
+	@When("User on is {string}")
+	public String userOnIsDepartment(String department) {
+		switch(department) {
+		case "Electronics":
+			Assert.assertTrue(isElementDisplayed(factory.homePage().electronics));
+			logger.info("user is on electronic section");
 			break;
+		case "Computers":
+			Assert.assertTrue(isElementDisplayed(factory.homePage().computers));
+			logger.info("user is on Computers section");
+			break;
+		case "Smart Home":
+			Assert.assertTrue(isElementDisplayed(factory.homePage().smartHome));
+			logger.info("user is on Smart Home section");
+			break;
+		case "Sports":
+			Assert.assertTrue(isElementDisplayed(factory.homePage().sports));
+			logger.info("user is on Soprts sections");
+			break;
+		case "Automative":
+			Assert.assertTrue(isElementDisplayed(factory.homePage().automative));
+			logger.info("user is on Automative sections");
+			break;
+			default:
 		}
+		return this.department = department;
+		
+		
 	}
-//		
-//		if(department.equals("Electronics")) {
-//			getDriver().findElement((By.xpath("//span[text()='Electronics']"))).click();
-//		}else if(department.equals("Computers")) {
-//			getDriver().findElement((By.xpath("//span[text()='Computers']"))).click();
-//		}else if(department.equals("Computers")) {
-//				getDriver().findElement((By.xpath("//span[text()='Computers']"))).click();
-//		}else if(department.equals("Smart Home")) {
-//			getDriver().findElement((By.xpath("//span[text()='Smart Home']"))).click();
-//		}else if(department.equals("Sports")) {
-//			getDriver().findElement((By.xpath("//span[text()='Sports']"))).click();
-//		}else 
-//			getDriver().findElement((By.xpath("//span[text()='Automative']"))).click();
-
-	}
-
 	@Then("below options are present in department")
 	public void belowOptionsArePresentInDepartment(DataTable dataTable) {
-		List<List<String>> departmentOptions = dataTable.asLists(String.class);
-		List<WebElement> dept = factory.homePage().sideBar;
-		for(int i=0; i<departmentOptions.get(0).size();i++) {
-			
-			for(WebElement element: dept) {
-				if(element.getText().equals(departmentOptions.get(0).get(i))){
-					Assert.assertTrue(element.isDisplayed());
-				logger.info(element.getText() + " is present ");	
-				}
-			}
-			
-		}
-//		
-//		Assert.assertTrue(getDriver().findElement(By.xpath("//span[text()='"+departmentOptions.get(0).get(0)+"']")).isDisplayed());
-//		Assert.assertTrue(getDriver().findElement(By.xpath("//span[text()='"+departmentOptions.get(0).get(1)+"']")).isDisplayed());
-
-
+	   List<List<String>> department = dataTable.asLists();
+	   
+	   switch ("department") {
+	   case "Electronics":
+		   click(factory.homePage().electronics);
+		   String video = getText(factory.homePage().videoGames);
+		   String tvAndVideo = getText(factory.homePage().tvAndVideo);
+		   Assert.assertEquals(tvAndVideo, department.get(0).get(0));
+		   Assert.assertEquals(video, department.get(0).get(1));
+		   logger.info(video + " options are present in department " + tvAndVideo);
+		   break;
+	   case "Computers":
+		   click(factory.homePage().computers);
+		   String accessories = getText(factory.homePage().accessories);
+		   String networking = getText(factory.homePage().networking);
+		   Assert.assertEquals(accessories, department.get(0).get(0));
+		   Assert.assertEquals(networking, department.get(0).get(1));
+		   logger.info(accessories + " options are present in department " + networking);
+		   break;
+	   case "Smart Home":
+		   click(factory.homePage().smartHome);
+		   String smarthHomeLightning = getText(factory.homePage().smarthHomeLightning);
+		   String plugsAndOutlets = getText(factory.homePage().plugsAndOutlets);
+		   Assert.assertEquals(smarthHomeLightning, department.get(0).get(0));
+		   Assert.assertEquals(plugsAndOutlets, department.get(0).get(1));
+		   logger.info(smarthHomeLightning + " options are present in department " + plugsAndOutlets); 
+		   break;
+	   case "Sports":
+		   click(factory.homePage().sports);
+		   String athleticClothing = getText(factory.homePage().athleticClothing);
+		   String excerciseAndFitness = getText(factory.homePage().excerciseAndFitness);
+		   Assert.assertEquals(athleticClothing, department.get(0).get(0));
+		   Assert.assertEquals(excerciseAndFitness, department.get(0).get(1));
+		   logger.info(excerciseAndFitness + " options are present in department " + excerciseAndFitness);
+		   break;
+	   case "Automative":
+		   click(factory.homePage().automative);
+		   String automativepartsAndAccessories = getText(factory.homePage().automativepartsAndAccessories);
+		   String motorCycleAndPowersports = getText(factory.homePage().motorCycleAndPowersports);
+		   Assert.assertEquals(automativepartsAndAccessories, department.get(0).get(0));
+		   Assert.assertEquals(motorCycleAndPowersports, department.get(0).get(1));
+		   logger.info(motorCycleAndPowersports + " options are present in department " +  automativepartsAndAccessories);
+		   break;
+		   
+	   }
+	   
 	}
-
-	@When("User click on item")
-	public void userClickOnItem() {
-		
-		waitTillPresence(factory.homePage().productNameItem);
-		click(factory.homePage().productNameItem);
-		logger.info("User clicked on item");
-
-	}
-	@When("User select quantity {string}")
-	public void userSelectQuantity(String qty) {
-		selectByVisibleText(factory.homePage().quantitySelection,qty);
-		logger.info("user selected quantity " + qty );
-
-	}
-	@When("User click add to Cart button")
-	public void userclickAddToCartButton() {
-		click(factory.homePage().addToCartButton);
-		logger.info("user clicked add to cart button");
-
-	}
-	@Then("the cart icon quantity should change to {string}")
-	public void theCartIconQuantityShouldChangeTo(String expectedQuantity) {
-		
-		Assert.assertEquals(expectedQuantity, factory.homePage().cartQuantity.getText());
-		logger.info("the cart icon quantity changed to " + expectedQuantity );
-	}
-	
-	@Then("User click on Cart option")
-	public void userClickOnCartOption() {
-		click(factory.homePage().cart);
-		logger.info("user clicked on cart option");
-
-	}
-	@Then("User click on Proceed to Checkout button")
-	public void userClickOnProceedToCheckoutButton() {
-		click(factory.homePage().proceedToCheckOut);
-		logger.info("user clicked on Proceed to Checkout button");
-
-	}
-	@Then("User click Add a new address link for shipping address")
-	public void userClickAddANewAddressLinkForShippingAddress() {
-		click(factory.homePage().addAddressBtnCheckout);
-		logger.info("user clicked add a new address link for shipping address");
-
-	}
-	@Then("User click Add a credit card or Debit Card for Payment method")
-	public void userClickAddACreditCardOrDebitCardForPaymentMethod() {
-		click(factory.homePage().addPaymentBtnCheckout);
-		logger.info("User clicked Add a credit card or Debit Card for Payment method");
-
-	}
-	@Then("User click on Place Your Order")
-	public void userClickOnPlaceYourOrder() {
-		click(factory.homePage().placeOrderBtn);
-		logger.info("user clicked on place your order");
-
-	}
-	
 }
